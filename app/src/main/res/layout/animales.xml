@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/caballo"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/caballo"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/atras"
+        android:layout_width="119dp"
+        android:layout_height="106dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/atras" />
+
+    <ImageView
+        android:id="@+id/chancho"
+        android:layout_width="113dp"
+        android:layout_height="94dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toEndOf="@+id/caballo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        app:srcCompat="@drawable/chancho" />
+
+    <ImageView
+        android:id="@+id/elefante"
+        android:layout_width="120dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toEndOf="@+id/chancho"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/elefante" />
+
+    <ImageView
+        android:id="@+id/gallo"
+        android:layout_width="110dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/caballo"
+        app:layout_constraintVertical_bias="0.207"
+        app:srcCompat="@drawable/gallo" />
+
+    <ImageView
+        android:id="@+id/gato"
+        android:layout_width="117dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toStartOf="@+id/hornero"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/gallo"
+        app:layout_constraintTop_toBottomOf="@+id/chancho"
+        app:layout_constraintVertical_bias="0.069"
+        app:srcCompat="@drawable/gato" />
+
+    <ImageView
+        android:id="@+id/hornero"
+        android:layout_width="108dp"
+        android:layout_height="95dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elefante"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/hornero" />
+
+    <ImageView
+        android:id="@+id/leon"
+        android:layout_width="112dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gallo"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/leon" />
+
+    <ImageView
+        android:id="@+id/lobo"
+        android:layout_width="120dp"
+        android:layout_height="95dp"
+        android:layout_marginEnd="152dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/leon"
+        app:layout_constraintTop_toBottomOf="@+id/gato"
+        app:layout_constraintVertical_bias="0.125"
+        app:srcCompat="@drawable/lobo" />
+
+    <ImageView
+        android:id="@+id/mono"
+        android:layout_width="112dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toEndOf="@+id/lobo"
+        app:layout_constraintTop_toBottomOf="@+id/hornero"
+        app:layout_constraintVertical_bias="0.126"
+        app:srcCompat="@drawable/mono" />
+
+    <ImageView
+        android:id="@+id/oveja"
+        android:layout_width="118dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toStartOf="@+id/paloma"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leon"
+        app:srcCompat="@drawable/oveja" />
+
+    <ImageView
+        android:id="@+id/paloma"
+        android:layout_width="109dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="148dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lobo"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/paloma" />
+
+    <ImageView
+        android:id="@+id/pato"
+        android:layout_width="106dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toEndOf="@+id/paloma"
+        app:layout_constraintTop_toBottomOf="@+id/mono"
+        app:layout_constraintVertical_bias="0.194"
+        app:srcCompat="@drawable/pato" />
+
+    <ImageView
+        android:id="@+id/pavo"
+        android:layout_width="118dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oveja"
+        app:layout_constraintVertical_bias="0.292"
+        app:srcCompat="@drawable/pavo" />
+
+    <ImageView
+        android:id="@+id/perro"
+        android:layout_width="116dp"
+        android:layout_height="95dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toEndOf="@+id/pavo"
+        app:layout_constraintTop_toBottomOf="@+id/paloma"
+        app:layout_constraintVertical_bias="0.287"
+        app:srcCompat="@drawable/perro" />
+
+    <ImageView
+        android:id="@+id/vaca"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toEndOf="@+id/perro"
+        app:layout_constraintTop_toBottomOf="@+id/pato"
+        app:layout_constraintVertical_bias="0.29"
+        app:srcCompat="@drawable/vaca" />
+</androidx.constraintlayout.widget.ConstraintLayout>
