@@ -219,7 +219,6 @@ public class animales extends AppCompatActivity {
         imageViewBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Finaliza la actividad actual para volver a la pantalla anterior
                 finish();
             }
         });
