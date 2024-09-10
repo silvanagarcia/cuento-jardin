@@ -1,10 +1,12 @@
 package com.example.cuento;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -37,6 +39,17 @@ public class menucuento extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(menucuento.this, animales.class);
+                startActivity(intent);
+                finish(); // Finaliza la actividad actual
+            }
+        });
+
+        //Boton Volver atras
+        ImageView imageViewBack = findViewById(R.id.atras2);
+        imageViewBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(menucuento.this, MainActivity.class);
                 startActivity(intent);
                 finish(); // Finaliza la actividad actual
             }
