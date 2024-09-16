@@ -60,10 +60,10 @@
         android:layout_height="95dp"
         app:layout_constraintBottom_toTopOf="@+id/atras"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/caballo"
-        app:layout_constraintVertical_bias="0.207"
+        app:layout_constraintVertical_bias="0.24"
         app:srcCompat="@drawable/gallo" />
 
     <ImageView
@@ -95,10 +95,10 @@
         android:layout_height="95dp"
         app:layout_constraintBottom_toTopOf="@+id/atras"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gallo"
-        app:layout_constraintVertical_bias="0.13"
+        app:layout_constraintVertical_bias="0.088"
         app:srcCompat="@drawable/leon" />
 
     <ImageView
@@ -130,9 +130,9 @@
         android:id="@+id/oveja"
         android:layout_width="118dp"
         android:layout_height="95dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toStartOf="@+id/paloma"
-        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/leon"
         app:srcCompat="@drawable/oveja" />
@@ -166,10 +166,10 @@
         android:layout_height="95dp"
         app:layout_constraintBottom_toTopOf="@+id/atras"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.023"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/oveja"
-        app:layout_constraintVertical_bias="0.292"
+        app:layout_constraintVertical_bias="0.464"
         app:srcCompat="@drawable/pavo" />
 
     <ImageView

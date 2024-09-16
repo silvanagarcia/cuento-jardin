@@ -65,6 +65,8 @@ public class reproductor extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(reproductor.this, menucuento.class);
                 startActivity(intent);
+                mediaPlayer.stop();
+                resetMediaPlayer();
                 finish(); // Finaliza la actividad actual
             }
         });
